@@ -1,6 +1,6 @@
 ---
 title: uboot1.3.3_start.S分析（一）
-description: 2018-6-18 21:29:27 start.S分析！
+description: 2018-6-18 22:39:34 start.S分析！
 categories:
  - uboot1.3.3分析
 tags: uboot
@@ -8,6 +8,7 @@ tags: uboot
 >前面我通过分析链接脚本我们发现程序的第一个文件是cpu/arm920t/start.S编译得到的，所以我们的程序入口肯定在start.S里面！下面我们进行分析！
 
 # start.S分析：
+## 2018-6-18
 
 	.globl _start
 	_start:	b       start_code
